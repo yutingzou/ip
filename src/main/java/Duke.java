@@ -87,7 +87,7 @@ public class Duke {
                             //                    try{
                             int taskNo = Integer.valueOf(parts[1]);
                             Task curTask = myList.get(taskNo - 1);
-                            myList.remove(taskNo);
+                            myList.remove(taskNo-1);
                             System.out.println("---------------------------------------------");
                             System.out.println("Noted. I've removed this task:");
                             System.out.println(curTask);
